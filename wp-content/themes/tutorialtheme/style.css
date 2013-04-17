@@ -1,0 +1,137 @@
+/*  
+Theme Name: tutorialtheme
+Theme URI: http://www.blogohblog.com
+Description: Tutorialtheme is the first of its kind WordPress Theme specially designed for a tutorials website.The theme has been modified in a way where you can make your posts look like actual tutorials. So, now you do not need to hunt anywhere else for a free or paid tutorials script. Courtesy of <a href="http://www.blogohblog.com" title="Free & Premium WordPress Themes">Blog Oh! Blog</a>
+Version: 1.0
+Author: Jai Nischal Verma
+Author URI: http://www.blogohblog.com
+*/
+
+/*++++++ BODY ++++++++*/
+* { margin: 0px; padding: 0px; list-style:none; outline:none;}
+body { background:#fff url(images/stripe.png) repeat-x top; font:11px Verdana, Arial, Helvetica, sans-serif; color:#333; }
+.clear { clear:both;}
+
+/*++++++ HYPERLINKS ++++++++*/
+a { color: #0066CC; font-weight:bold; text-decoration:none;}
+a:hover{color:#CC0000;}
+
+/*++++++ H2,H3 ++++++++*/
+h2 {font:20px Arial, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #333333; padding-bottom:10px;}
+h3 {font:15px Arial, Tahoma, Verdana, Arial, Helvetica, sans-serif; color:#fff; padding-bottom:10px;}
+
+/*++++++ MAIN ++++++++*/
+#wrapper { width:810px; margin: 10px auto 10px;}
+#left { float: left; width: 565px; line-height:140%;}
+#right { float:right; width:220px; margin-top:70px; line-height:140%;}
+
+/*++++++ TOP ++++++++*/
+#logo { width:565px; padding:0 0 10px 0;}
+#logo h1{ text-indent:-10000px;}
+#logo h1 a{ display:block; background: url(images/logo.gif) no-repeat; height:106px; }
+/**************** Navigation *********************/
+#navigation{height:40px; font:14px Trebuchet MS; font-weight:bold; border-bottom:3px double #C1E1F0; text-transform:uppercase;}
+#menu{float:right; padding-right:5px;}
+#menu li{display:inline;list-style:none;background:#ffffff url(images/menuleft.jpg) no-repeat top left; padding:10px; margin-right:5px;}
+.page_item a:link, .page_item a:visited{color: #CC0000; }
+.page_item a:hover {color:#0066CC;text-decoration:none;}
+.current_page_item a:link, .current_page_item a:visited{color: #0066CC;text-decoration:none; }
+#info { width:565px; height:40px; margin:10px 0 10px 0;}
+#info h2 { display:block; text-indent:-9999px; background:url(images/headline.gif) no-repeat; width:300px; height:48px;}
+
+/*++++++ ENTRY ++++++++*/
+#content { width: 565px;}
+.navigation { width: 550px; height:50px; }
+.thumb { width:129px; height:126px; float:left; padding:6px 10px 0 0;}
+.entry { width:425px; float:right; margin-bottom:25px;}
+.post {padding:10px; border:3px double #C1E1F0;}
+.post h2 { font:20px Arial, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #333333; padding-bottom:10px;}
+.post h2 a { font:20px Arial, Tahoma, Verdana; color: #CC0000; text-decoration:none;}
+.post p { padding-bottom:10px;}
+.entry .white a{ color: #000000; text-decoration:none;}
+.meta { margin-top:10px; background-color: #DBEEB7; padding:5px 0 0 10px; border:1px solid #CCCCCC;}
+#content p.postmetadata alt {color:#000;}
+
+
+/*++++++ MISC ++++++++*/
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; } 
+.alignleft { float: left }
+img { border:none;}
+.ads1 { width:468px; height:68px; margin:auto; padding: 0 0 10px 0;}
+html>body .entry ul { margin-left: 0px; padding: 0 0 0 30px; list-style: none; padding-left: 10px; text-indent: -10px; } 
+html>body .entry li { margin: 7px 0 8px 10px; }
+.entry ul li:before { content: "\00BB \0020"; }
+.entry ol { padding: 0 0 0 35px; margin: 0; }
+.entry ol li { margin: 0; padding: 0; }
+
+/*++++++ SIDEBAR ++++++++*/
+#googlesearch { width:220px; margin-bottom:20px;}
+#about { width:214px; padding-left:6px; margin-bottom:20px; color:#666666;}
+#about h2 { text-indent:-9999px; background:url(images/about.gif) no-repeat; height:30px; padding-bottom:10px;}
+#category { width:214px; padding-left:6px; margin-bottom:20px;}
+#category h2 { text-indent:-9999px; background:url(images/category.gif) no-repeat; height:30px; padding-bottom:10px;}
+#category ul{}
+#category ul li{}
+#category ul li ul{}
+#category ul li ul li{display:block; background:url(images/folder.gif) no-repeat 0 0px; padding-left:20px; padding-bottom:5px; }
+#recentpost { width:214px; padding-left:6px; margin-bottom:20px;}
+#recentpost h2 { text-indent:-9999px; background:url(images/recentpost.gif) no-repeat; height:30px; padding-bottom:10px;}
+#recentpost ul{}
+#recentpost ul li{}
+#recentpost ul li ul{}
+#recentpost ul li ul li{display:block; background:url(images/recentbullet.gif) no-repeat 0 0px; padding-left:20px; padding-bottom:5px; }
+#recentcomment { width:214px; padding-left:6px; margin-bottom:20px;}
+#recentcomment h2 { text-indent:-9999px; background:url(images/recentcomment.gif) no-repeat; height:30px; padding-bottom:10px;}
+#recentcomment ul{}
+#recentcomment ul li{}
+#recentcomment ul li ul{}
+#recentcomment ul li ul li{display:block; background:url(images/recentbullet.gif) no-repeat 0 2px; padding-left:20px; padding-bottom:5px; }
+
+#partner { width:214px; padding-left:6px; margin-bottom:50px;}
+#partner h2 { text-indent:-9999px; background:url(images/linkpartners.gif) no-repeat; height:13px; padding-bottom:10px;}
+#partner ul{}
+#partner ul li{ padding-bottom:5px;}
+#partner ul li ul{}
+#partner ul li ul li{display:block; background:url(images/recentbullet.gif) no-repeat 0 2px; padding-left:20px; padding-bottom:10px; }
+#partner ul li.morelinks { width:122px; text-align:right;}
+
+/*++++++ COMMENTS ++++++++*/
+.commentlist li, #commentform input, #commentform textarea { font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif; background:#DBEEB7; border:none;}
+.commentlist li { font-weight: bold; }
+.commentlist cite, .commentlist cite a { font-weight: normal; font-style: normal; font-size: 13px; text-transform:uppercase; }
+.commentlist p { font-weight: normal; line-height: 1.5em; text-transform: none; }
+#commentform p { font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; }
+.commentmetadata, .commentmetadata a { font-weight: normal; padding-top:10px; font-size:9px; }
+#commentform input { width: 170px; padding: 2px; margin: 5px 5px 1px 0; }
+#commentform textarea { width: 90%; padding: 2px; border:none; background:#C1E1F0; color:#000; }
+#commentform #submit { float: left; color:#000; font-weight:bold; border:none; }
+.alt { padding: 10px; }
+.commentlist { text-align: justify;	}
+.commentlist li { margin: 15px 0 3px; padding: 5px 10px 3px; list-style: none; }
+.commentlist p { margin: 10px 5px 10px 0; }
+#commentform p { margin: 5px 0; }
+.nocomments { text-align: center;}
+.commentmetadata { display: block; }
+
+/*++++++ FOOTER ++++++++*/
+#footer { width:810px; margin:10px auto 10px; padding-top:10px; text-align:center;border-top:3px double #C1E1F0;}
+
+/*++++++ Custom ++++++++*/
+ul {list-style:none;}
+/*•*/
+ul
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+ul li
+{
+background-image: url(bullet.png);
+background-repeat: no-repeat;
+background-position: 0px 5px;
+padding-left: 14px;
+}

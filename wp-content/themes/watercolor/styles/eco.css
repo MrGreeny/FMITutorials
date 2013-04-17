@@ -1,0 +1,83 @@
+/*	[ Basic HTML ]                                                  */<!-- -->
+body{
+	background:#183203 url('eco/bg_repeat.jpg') repeat-y top center;
+}
+
+/*	[ Layout ]                                                      */<!-- -->
+#bg_top{
+	background:url('eco/bg_top.jpg') no-repeat center top;
+}
+#bg_btm{
+	background:url('eco/bg_btm.jpg') no-repeat center bottom;
+}
+#base {
+	background:url('eco/bg_base_repeat.jpg') repeat-y left top;
+}
+
+#header{
+	background:url(eco/bg_header.jpg) no-repeat left top;
+}
+#container{
+	background:url(eco/bg_container.jpg) no-repeat left top;
+}
+#container_btm{
+	background:url(eco/bg_container_btm.jpg) no-repeat left bottom;
+}
+#footer{
+	background:url('eco/bg_footer.jpg') no-repeat bottom left; 
+}
+#footer_credit{
+	position:absolute;
+	width:385px;
+	height:35px;
+	line-height:1.2em;
+	margin:5px 125px 5px 10px;
+	padding:0;
+	bottom:0;
+	right:0;
+	text-align:center;
+}
+/*	[ Header ] Blog Title, Description, Home URL                    */<!-- -->
+#blog_name {
+	position:relative;
+	padding-top:50px;
+	margin:0px 400px 0 100px;
+	font-size:36px;
+	text-align:left; 
+	font-weight:bold;	
+}
+#blog_name a, #blog_name a:hover {
+	font-family:"Times New Roman",Verdana, Arial, Helvetica, Sans-Serif;
+	font-style:italic;
+	color:#540101; 
+	text-decoration:none;
+	text-shadow:#ffffff 1px 1px 0px,#cccccc 0px 0px 5px;
+}
+#blog_desc {
+	margin:0px 400px 0 100px;
+	text-align:left; 
+	font-size:13px; 
+	color:#8C7155; 
+	font-weight:bold;	
+	text-shadow: #ffffff 1px 1px 2px;
+}
+/*	[ Menu ]  Level 1                                               */<!-- -->
+div.menu li a {
+	background:url(eco/bg_menu1.png) no-repeat center top;
+}
+div.menu > ul > li a:hover, 
+div.menu > ul > li.current_page_item > a,
+div.menu > ul > li.current_page_ancestor > a,
+div.menu > ul > li.current_page_parent > a,
+div.menu > ul > li.current-menu-ancestor > a,
+div.menu > ul > li.current-menu-item > a,
+div.menu > ul > li.current-menu-parent > a{
+	background:url(eco/bg_menu2.png) no-repeat center top;
+}
+
+/*	[ Custom Widget and options]                                    */<!-- -->
+#flickrrss{
+	display:none;
+}
+
+<!-- -->

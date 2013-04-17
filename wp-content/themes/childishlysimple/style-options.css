@@ -1,0 +1,765 @@
+/*
+This is style-options.css   
+It's used for styling the Childishly Simple Layout options page and is added using       wp_enqueue_style( 'style-options.css' );       in functions.php
+
+Table of contents
+
+=Childishly Simple options
+=Main containers
+=Main headers
+=Labels and inputs
+=Fixed or liquid 
+=Site width
+=Site layout
+=Body and content background color 
+=Banner image
+=Home page heading
+=Sidebar widths
+=Choose the sidebar items
+=Sidebar item colors
+=Sidebar background colors
+=Footer items
+=Footer item colors
+=Footer spacing
+=Post font colors, border, background, category headings
+=Miscellaneous 
+=Drop-down menu items 
+=Title element and meta description notes
+=Errors
+*/
+
+
+
+
+/*  =Childishly Simple options
+---------------------------------------------------------------------------------------------------*/
+
+a.current span.childishlysimple-options-submenu{		/* Highlight the Childishly Simple Options submenu in Admin */
+color:#000000;
+}
+table.layout{	
+position:relative;
+}
+tr.layout{
+position:relative;
+}
+td.layout{
+border-bottom:0 solid #000000;
+padding:0 0 10px 0;
+position:relative;
+}
+
+
+/* =Main containers
+--------------------------------------------------------------------------------------------------- */
+div.childishlysimple-options-wrapper{	
+position:relative;
+padding-bottom:70px;
+}
+div.options-container{
+border:1px solid #c0c0c0;
+clear:both;
+margin:10px 1% 30px 0;
+overflow:auto;
+padding:10px 1% 20px 1%;
+position:relative;
+width:98%;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius:10px;
+}
+div.options-left-container{
+border:0px solid red;
+float:left;
+margin:20px 1.5% 20px 0;
+overflow:auto;
+padding:10px 1% 20px 1%;
+position:relative;
+width:47%;
+}
+div.options-right-container{
+border:0px solid red;
+float:left;
+margin:20px 0 20px 0;
+overflow:auto;
+padding:10px 1% 20px 1%;
+position:relative;
+width:47%;
+}
+div.full-width{
+border:0px solid red;
+clear:both;
+margin:0 0 30px 0;
+padding:0 0 0 1%;
+}
+
+
+/* =Main headers
+--------------------------------------------------------------------------------------------------- */
+
+h2.layout{
+margin:0 0 10px 0;
+padding-left:12px;
+position:relative;
+}
+h3.layout{
+background:transparent;
+clear:both;
+font:italic normal 24px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+background-color:#e5e5e5;
+margin:100px 0 30px 0;
+position:relative;
+padding-left:12px;
+-moz-border-radius:3px;
+-webkit-border-radius: 3px;
+border-radius:3px;
+}
+h3.top-drop-down-menu,
+h3.bottom-drop-down-menu {
+background-color:transparent;
+margin-top:0;
+padding-left:0;
+}
+h3.site-width {
+margin-top:0;
+}
+h4.layout{
+background:transparent;
+font:italic normal 18px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+margin:0 0 30px 0;
+padding-left:12px;
+position:relative;
+}
+h5.layout{
+background:transparent;
+font:italic normal 14px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+margin:0 0 10px 0;
+padding-left:12px;
+position:relative;
+-moz-border-radius:3px;
+-webkit-border-radius: 3px;
+border-radius:3px;
+}
+
+/* =Labels and inputs
+--------------------------------------------------------------------------------------------------- */
+label.layout,p.layout{	
+font-size:1.3em;
+font-weight:bold;
+height:20px;
+margin-left:0;
+padding:0;
+position:relative;
+}
+input.layout{	
+height:20px;
+position:relative;
+width:150px;
+}
+input.index-heading{
+width:400px;
+}
+label.choose-item-checkbox{	
+font-weight:normal;
+}
+p.layout-description{	
+clear:both;
+font-size:1.2em;
+line-height:1.4em;
+margin-left:0;
+padding:0;
+position:relative;
+text-align:left;
+text-indent:0;
+}
+
+
+/* =Fixed or liquid 
+---------------------------------------------------------------------------------------------------*/
+
+label.liquid-or-fixed{
+float:left;
+font-weight:normal;
+position:relative;
+width:100px;
+}
+input.liquid-or-fixed{
+height:20px;
+position:relative;
+}
+
+/* =Site width
+--------------------------------------------------------------------------------------------------- */
+
+div.site-width{
+background:transparent url(images/admin-images1.gif) 80% 10px no-repeat;
+}
+
+
+/* =Site layout (two column etc.) 
+---------------------------------------------------------------------------------------------------*/
+
+div.site-layout{	
+border:1px solid #dbdbdb;
+float:left;
+margin:0 1% 0 0;
+width:15%;
+-moz-border-radius:3px;
+-webkit-border-radius: 3px;
+border-radius:3px;
+}
+label.site-layout{
+font-weight:normal;
+padding:0 0 0 2%;
+}
+img.site-layout{
+width:100%;
+}
+p.site-layout-description{
+clear:both;
+margin-bottom:50px;
+font-weight:normal;
+}
+
+
+/* =Body and content background color 
+---------------------------------------------------------------------------------------------------*/
+
+p.body-background-color{
+background:transparent url(images/admin-images1.gif) right -200px no-repeat;
+padding:0 200px 150px 0;
+position:relative;
+}
+p.site-border-color{
+background:transparent url(images/admin-images1.gif) right -5850px no-repeat;
+padding:0 200px 200px 0;
+position:relative;
+}
+p.content-background-color{
+background:transparent url(images/admin-images1.gif) right -600px no-repeat;
+padding:0 200px 200px 0;
+position:relative;
+}
+p.site-background-color{
+background:transparent url(images/admin-images1.gif) right -6535px no-repeat;
+padding:0 200px 100px 0;
+position:relative;
+}
+
+
+/* =Banner image
+--------------------------------------------------------------------------------------------------- */
+
+p.banner{
+background:transparent url(images/admin-images1.gif) right -1000px no-repeat;
+margin:0 100px 0 0;
+padding:0 320px 30px 0;
+}
+
+
+/* =Home page heading 
+---------------------------------------------------------------------------------------------------*/
+
+p.index-heading{
+background:transparent url(images/admin-images2.gif) right -7600px no-repeat;
+padding:0 360px 120px 0;
+width:60%;
+}
+
+
+/* =Sidebar widths 
+--------------------------------------------------------------------------------------------------- */
+
+div.left-sidebar-width,div.right-sidebar-width{
+height:280px;
+position:relative;
+}
+p.left-sidebar-width,p.right-sidebar-width{
+margin:0;
+padding:0;
+width:60%;
+}
+div.left-sidebar-width-image,div.right-sidebar-width-image{
+width:460px;
+position:absolute;
+right:2%;
+top:0;
+}
+img.left-sidebar-width-image{
+margin:10px 0 0 8px;
+position:relative;
+}
+img.right-sidebar-width-image{
+margin:10px 0 0 200px;
+position:relative;
+}
+p.make-it-obvious-left{	/* Highlight the sidebar width minimum and maximum */
+color:#FF0000;
+font-size:1.7em;
+padding:0 0 0 97px;
+position:relative;
+}
+p.make-it-obvious-right{
+color:#FF0000;
+font-size:1.7em;
+padding:0 0 0 290px;
+position:relative;
+}
+p.sidebar-top-spacing {
+background:transparent url(images/admin-images2.gif) right -2965px no-repeat;
+padding:0 200px 150px 0;
+position:relative;
+}
+
+/* =Choose the sidebar items 
+---------------------------------------------------------------------------------------------------*/
+
+div.left-sidebar-items{
+background:transparent url(images/admin-images1.gif) right -1350px no-repeat;
+}
+div.right-sidebar-items{
+background:transparent url(images/admin-images1.gif) right -2650px no-repeat;
+}
+p.left-sidebar-items,p.right-sidebar-items{
+font-weight:normal;
+padding:15px 0 0 0;
+}
+label.left-sidebar-item{	
+float:left;
+font-weight:normal;
+height:20px;
+position:relative;
+width:250px;
+}
+input.left-sidebar-item{
+height:20px;
+position:relative;
+}
+label.right-sidebar-item{
+float:left;
+font-weight:normal;
+height:20px;
+position:relative;
+width:250px;
+}
+input.right-sidebar-item{
+height:20px;
+position:relative;
+}
+
+
+/* =Sidebar item colors 
+---------------------------------------------------------------------------------------------------*/
+
+div.sidebar-items{
+border:1px solid #0000ff;
+clear:both;
+position:relative;
+}
+p.small-sidebar-item{
+margin:0 0 20px 0;
+padding:0 200px 50px 0;
+}
+p.left-sidebar-item-background-color{
+background:transparent url(images/admin-images1.gif) right -4000px no-repeat;
+}
+p.left-sidebar-item-border-color{
+background:transparent url(images/admin-images1.gif) right -4200px no-repeat;
+}
+p.left-sidebar-item-heading-background-color{
+background:transparent url(images/admin-images1.gif) right -4400px no-repeat;
+}
+p.left-sidebar-item-heading-font-color{
+background:transparent url(images/admin-images1.gif) right -4600px no-repeat;
+}
+p.left-sidebar-font-color{
+background:transparent url(images/admin-images3.gif) right -9425px no-repeat;
+}
+p.left-sidebar-link-color{
+background:transparent url(images/admin-images3.gif) right -9720px no-repeat;
+}
+p.left-sidebar-hover-color{
+background:transparent url(images/admin-images3.gif) right -10030px no-repeat;
+}
+p.right-sidebar-item-background-color{
+background:transparent url(images/admin-images1.gif) right -4000px no-repeat;
+}
+p.right-sidebar-item-border-color{
+background:transparent url(images/admin-images1.gif) right -4200px no-repeat;
+}
+p.right-sidebar-item-heading-background-color{
+background:transparent url(images/admin-images1.gif) right -4400px no-repeat;
+}
+p.right-sidebar-item-heading-font-color{
+background:transparent url(images/admin-images1.gif) right -4600px no-repeat;
+}
+p.right-sidebar-font-color{
+background:transparent url(images/admin-images3.gif) right -9425px no-repeat;
+}
+p.right-sidebar-link-color{
+background:transparent url(images/admin-images3.gif) right -9720px no-repeat;
+}
+p.right-sidebar-hover-color{
+background:transparent url(images/admin-images3.gif) right -10030px no-repeat;
+}
+
+
+/* =Sidebar background colors
+---------------------------------------------------------------------------------------------------*/
+
+p.short-left-sidebar-background-color{
+background:transparent url(images/admin-images2.gif) right 0px no-repeat;
+padding:0 200px 130px 0;
+}
+p.short-right-sidebar-background-color{
+background:transparent url(images/admin-images2.gif) right -500px no-repeat;
+padding:0 200px 130px 0;
+}
+p.long-left-sidebar-background-color{
+background:transparent url(images/admin-images2.gif) right -10060px no-repeat;
+padding:0 210px 130px 0;
+}
+p.long-right-sidebar-background-color{
+background:transparent url(images/admin-images2.gif) right -10610px no-repeat;
+padding:0 210px 130px 0;
+}
+
+
+/* =Footer items 
+---------------------------------------------------------------------------------------------------*/
+
+div.footer-items{
+background:transparent url(images/admin-images2.gif) right -1500px no-repeat;
+}
+div.footer-item-colors{
+border-left:1px solid #c0c0c0;
+}
+div.footer-background-color{
+border-bottom:1px solid #c0c0c0;
+padding:20px 0 20px 0;
+}
+label.footer-item{
+float:left;
+font-weight:normal;
+height:20px;
+position:relative;
+width:180px;
+}
+input.footer-item{
+height:20px;
+position:relative;
+}
+p.footer-items{
+font-weight:normal;
+padding:15px 0 0 0;
+}
+
+
+/* =Footer item colors
+---------------------------------------------------------------------------------------------------*/
+
+p.small-footer-item{
+margin:0 10px 20px 0;
+padding:0 200px 100px 0;
+}
+p.footer-item-background-color{
+background:transparent url(images/admin-images1.gif) right -4000px no-repeat;
+}
+p.footer-item-border-color{
+background:transparent url(images/admin-images1.gif) right -4200px no-repeat;
+}
+p.footer-item-heading-background-color{
+background:transparent url(images/admin-images1.gif) right -4400px no-repeat;
+}
+p.footer-item-heading-font-color{
+background:transparent url(images/admin-images1.gif) right -4600px no-repeat;
+}
+p.footer-font-color{
+background:transparent url(images/admin-images3.gif) right -9425px no-repeat;
+padding-bottom:50px;
+}
+p.footer-link-color{
+background:transparent url(images/admin-images3.gif) right -9720px no-repeat;
+padding-bottom:50px;
+}
+p.footer-hover-color{
+background:transparent url(images/admin-images3.gif) right -10030px no-repeat;
+padding-bottom:50px;
+}
+p.footer-background-color{
+background:transparent url(images/admin-images2.gif) right -4500px no-repeat;
+margin:0 10% 0 0;
+padding:0 200px 250px 0;
+position:relative;
+}
+
+
+/* =Footer spacing - the distance the footer items should be moved down 
+---------------------------------------------------------------------------------------------------*/
+
+div.admin-footer-spacer {
+border-bottom:1px solid #c0c0c0;
+}
+p.admin-footer-spacer{
+background:transparent url(images/admin-images2.gif) right -5000px no-repeat;
+margin:0 10% 0 0;
+padding:0 200px 290px 0;
+}
+p.utility-link{
+background:transparent url(images/admin-images2.gif) right -9300px no-repeat;
+padding:0 300px 50px 0;
+}
+p.utility-hover{
+background:transparent url(images/admin-images2.gif) right -9680px no-repeat;
+padding:0 300px 50px 0;
+}
+div.rss-links{
+border:1px solid #c0c0c0;
+}
+
+/* =Post font colors, border, background, category headings 
+--------------------------------------------------------------------------------------------------- */
+
+p.category-heading-font-color{
+background:transparent url(images/admin-images2.gif) right -5500px no-repeat;
+padding:0 300px 120px 0;
+position:relative;
+width:60%;
+}
+p.post-title-font-color{
+background:transparent url(images/admin-images2.gif) right -5900px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.post-title-font-hover-color{
+background:transparent url(images/admin-images2.gif) right -6300px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.body-and-post-font-color{
+background:transparent url(images/admin-images2.gif) right -8200px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.body-and-post-link-color{
+background:transparent url(images/admin-images2.gif) right -8600px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.body-and-post-hover-color{
+background:transparent url(images/admin-images2.gif) right -9000px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.post-background-color{
+background:transparent url(images/admin-images2.gif) right -6700px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+p.post-margin-bottom{
+padding:0 300px 70px 0;
+position:relative;
+width:60%;
+}
+p.post-border-color{
+background:transparent url(images/admin-images2.gif) right -7100px no-repeat;
+padding:0 300px 140px 0;
+position:relative;
+width:60%;
+}
+
+
+/* =Miscellaneous 
+---------------------------------------------------------------------------------------------------*/
+
+div.miscellaneous-stuff{
+border:1px solid #c0c0c0;
+float:left;
+padding:0 1% 0 1%;
+}
+label.miscellaneous-item{
+float:left;
+font-weight:normal;
+height:20px;
+margin-left:10px;
+position:relative;
+width:390px;
+}
+input.miscellaneous-item{
+height:20px;
+position:relative;
+}
+span.miscellaneous-first-line{
+font-weight:bold;
+}
+div.miscellaneous-item{
+border:1px solid #e2e2e2;
+padding:10px 0 60px 0;
+}
+div.topsearch{
+background:transparent url(images/admin-images3.gif) 80% 0 no-repeat;
+position:relative;
+}
+div.rss{
+background:transparent url(images/admin-images3.gif) 80% -200px no-repeat;
+position:relative;
+}
+div.poweredby{
+background:transparent url(images/admin-images3.gif) 80% -401px no-repeat;
+position:relative;
+}
+div.copyright{
+background:transparent url(images/admin-images3.gif) 80% -602px no-repeat;
+position:relative;
+}
+div.noindex{
+position:relative;
+}
+div.rounded{
+background:transparent url(images/admin-images3.gif) 80% -1000px no-repeat;
+position:relative;
+}
+div.alchemweb_link{
+background:transparent url(images/admin-images3.gif) 80% -916px no-repeat;
+position:relative;
+}
+p.miscellaneous-items{
+font-weight:bold;
+}
+
+
+/* =Drop-down menu items 
+---------------------------------------------------------------------------------------------------  */
+
+p.small-menu-item{
+margin:0 10px 20px 0;
+padding:0 200px 100px 0;
+}
+p.top-navigation-bar-background-color{
+background:transparent url(images/admin-images3.gif) right -1300px no-repeat;
+}
+p.top-navigation-bar-link-color{
+background:transparent url(images/admin-images3.gif) right -7700px no-repeat;
+}
+p.top-navigation-bar-hover-color{
+background:transparent url(images/admin-images3.gif) right -8100px no-repeat;
+}
+p.top-navigation-bar-top-border-color{
+background:transparent url(images/admin-images3.gif) right -4905px no-repeat;
+}
+p.top-navigation-bar-bottom-border-color{
+background:transparent url(images/admin-images3.gif) right -11205px no-repeat;
+}
+p.top-menu-color{
+background:transparent url(images/admin-images3.gif) right -2100px no-repeat;
+}
+p.top-menu-visited-color{
+background:transparent url(images/admin-images3.gif) right -2500px no-repeat;
+}
+p.top-menu-hover-color{
+background:transparent url(images/admin-images3.gif) right -2900px no-repeat;
+}
+p.top-menu-active-color{
+background:transparent url(images/admin-images3.gif) right -3300px no-repeat;
+}
+p.top-menu-border-color{
+background:transparent url(images/admin-images3.gif) right -3700px no-repeat;
+}
+p.top-menu-font-color{
+background:transparent url(images/admin-images3.gif) right -4100px no-repeat;
+}
+p.top-menu-hover-font-color{
+background:transparent url(images/admin-images3.gif) right -10810px no-repeat;
+}
+p.bottom-navigation-bar-background-color{
+background:transparent url(images/admin-images3.gif) right -1300px no-repeat;
+}
+p.bottom-navigation-bar-link-color{
+background:transparent url(images/admin-images3.gif) right -7700px no-repeat;
+}
+p.bottom-navigation-bar-hover-color{
+background:transparent url(images/admin-images3.gif) right -8100px no-repeat;
+}
+p.bottom-navigation-bar-top-border-color{
+background:transparent url(images/admin-images3.gif) right -4905px no-repeat;
+}
+p.bottom-navigation-bar-bottom-border-color{
+background:transparent url(images/admin-images3.gif) right -11205px no-repeat;
+}
+p.bottom-menu-color{
+background:transparent url(images/admin-images3.gif) right -2100px no-repeat;
+}
+p.bottom-menu-visited-color{
+background:transparent url(images/admin-images3.gif) right -5700px no-repeat;
+}
+p.bottom-menu-hover-color{
+background:transparent url(images/admin-images3.gif) right -2900px no-repeat;
+}
+p.bottom-menu-active-color{
+background:transparent url(images/admin-images3.gif) right -3300px no-repeat;
+}
+p.bottom-menu-border-color{
+background:transparent url(images/admin-images3.gif) right -3700px no-repeat;
+}
+p.bottom-menu-font-color{
+background:transparent url(images/admin-images3.gif) right -4100px no-repeat;
+}
+p.bottom-menu-hover-font-color{
+background:transparent url(images/admin-images3.gif) right -10810px no-repeat;
+}
+
+
+
+/* =Title element and meta description notes
+---------------------------------------------------------------------------------------------------*/
+
+p.notes{
+font-size:1.2em;
+}
+
+
+/* =Errors 
+--------------------------------------------------------------------------------------------------- */
+
+
+h3.layout-error-top{
+color:#FF0000;
+font-size:1.4em;
+position:absolute;
+top:140px;
+right:100px;
+}
+h5.layout-error-top{
+color:#FF0000;
+font-size:1.2em;
+position:absolute;
+top:160px;
+right:100px;
+}
+h3.layout-error-bottom{
+color:#FF0000;
+font-size:1.4em;
+position:absolute;
+bottom:30px;
+right:150px;
+}
+h5.layout-error-bottom{
+color:#FF0000;
+font-size:1.2em;
+position:absolute;
+bottom:0px;
+right:150px;
+}
+h4.layout-error{
+color:#FF0000;
+font-size:1.2em;
+}
+p.submit{
+clear:both;
+}

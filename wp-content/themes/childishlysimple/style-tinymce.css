@@ -1,0 +1,17 @@
+/*
+This is style-tinymce.css. 
+
+It's added in functions.php using   add_editor_style('style-tinymce.css');
+
+You can copy styles from style.css so that the content that you type in the Admin screen looks exactly like the published content.
+
+An example style is included below (commented out).
+
+Thanks to: http://www.deluxeblogtips.com/2010/05/editor-style-wordpress-30.html
+*/
+
+/*
+p {
+color:#ff0000;
+}
+*/

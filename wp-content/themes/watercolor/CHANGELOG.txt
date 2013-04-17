@@ -1,0 +1,11 @@
+http://www.templatelite.com/watercolor-free-wordpress-theme/
+
+VERSION DATE        TYPE    CHANGES
++-------+-----------+-------+----------------------------------------------------------------------------------+
+1.00    2009/03/04  New     New release.
+1.01    2009/05/11  Fix     Modify the javascript to fix the height of dynamic content
+                    Modify  Move javascript to seperate .js file
+1.02    2009/05/11  Fix     Fix IE problem (only change style.css)
+1.03    2009/08/12  Fix     Show pagination on single.php
+2.00    2010/05/24  New     Added drop-down menu, ad-widget, Options page, advanced automatic thumbnails, custom style and more.
+3.00    2010/08/24  New     Added custom header menu (works on WP 3+ onwards) and enabled localization (translation).
